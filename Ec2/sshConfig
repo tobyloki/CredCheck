@@ -1,0 +1,4 @@
+Host AppClubEnv
+    HostName 18.207.142.24
+    IdentityFile C:\Users\Alex\Desktop\CredCheck\MyKey.pem
+    User ec2-user

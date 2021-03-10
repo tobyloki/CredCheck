@@ -1,0 +1,45 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<html>
+    <body>
+        <div class="text-center">
+            <h1 class="display-4">Welcome</h1>
+            <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+        </div>
+
+        <form id="getemails" method="post">
+            <input type="email" name="emailaddress">
+            <input id="btnsubmit" type="submit">
+            <asp:Panel id="Panel1" runat="server">@Model.response</asp:Panel>
+        </form>
+        <br><div>
+            <p>New Content:</p>
+            <p>@Model.containerResponse</p>
+            <input type="hidden" id="responseValue" value=@Model.containerResponse>
+            <p>
+                Responses: 
+                <br>@Model.res1
+                <br>@Model.res2
+                <br>@Model.res3
+            </p>
+        </div>
+    </body>
+</html>
+
+@section scripts{ 
+    <script type="text/javascript">
+        $(document).ready(function () {
+            console.log("In ready function");
+            $("#btnsubmit").click(function (e) {
+                console.log("In sumbit function");
+                e.preventDefault(); //also prevents post
+                var res = $("#responseValue").value
+                console.log("containerResponse: " + res)
+            });
+        });
+    </script>
+}

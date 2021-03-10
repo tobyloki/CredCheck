@@ -1,0 +1,147 @@
+﻿@page
+@model webApp.Pages.credCheck.ReadModel
+
+@{
+    ViewData["Title"] = "Read";
+}
+
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Design</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="css/fonts/ionicons.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <div class="big-triangle"></div>
+    <div class="small-triangle"></div>
+    <div class="section">
+        <div class="row section-row">
+            <div class="col-lg-4 d-flex d-sm-flex justify-content-center justify-content-sm-center left-column">
+                <div class="d-xl-flex card">
+                    <img class="card-logo" src="img/visa-logo-black-and-white.png">
+                    <div class="row d-flex align-items-center expiration">
+                        <div class="col-2 col-xl-2 d-xl-flex justify-content-xl-center align-items-xl-center card-number-column">
+                            <div class="mini-circle"></div>
+                        </div>
+                        <div class="col-1 col-xl-2 d-xl-flex justify-content-xl-center align-items-xl-center card-number-column">
+                            <div class="mini-circle"></div>
+                        </div>
+                        <div class="col-2 col-xl-2 d-xl-flex justify-content-xl-center align-items-xl-center card-number-column">
+                            <p class="d-flex justify-content-center expiration-slash">/</p>
+                        </div>
+                        <div class="col-2 col-xl-2 d-xl-flex justify-content-xl-center align-items-xl-center card-number-column">
+                            <div class="mini-circle"></div>
+                        </div>
+                        <div class="col-2 col-xl-2 d-xl-flex justify-content-xl-center align-items-xl-center card-number-column">
+                            <div class="mini-circle"></div>
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-center" style="margin-right: 10%;margin-left: 10%;">
+                        <div class="row d-flex d-lg-flex justify-content-center justify-content-lg-center card-number-row">
+                            <div class="col-2 col-xl-3 d-xl-flex justify-content-xl-center card-number-column">
+                                <div class="number-circle"></div>
+                            </div>
+                            <div class="col-2 col-xl-3 d-xl-flex justify-content-xl-center card-number-column">
+                                <div class="number-circle"></div>
+                            </div>
+                            <div class="col-2 col-xl-3 d-xl-flex justify-content-xl-center card-number-column">
+                                <div class="number-circle"></div>
+                            </div>
+                            <div class="col-2 col-xl-3 d-xl-flex justify-content-xl-center card-number-column">
+                                <div class="number-circle"></div>
+                            </div>
+                        </div>
+                        <div class="row d-flex d-lg-flex justify-content-center justify-content-lg-center card-number-row">
+                            <div class="col-2 col-xl-3 d-xl-flex justify-content-xl-center card-number-column">
+                                <div class="number-circle"></div>
+                            </div>
+                            <div class="col-2 col-xl-3 d-xl-flex justify-content-xl-center card-number-column">
+                                <div class="number-circle"></div>
+                            </div>
+                            <div class="col-2 col-xl-3 d-xl-flex justify-content-xl-center card-number-column">
+                                <div class="number-circle"></div>
+                            </div>
+                            <div class="col-2 col-xl-3 d-xl-flex justify-content-xl-center card-number-column">
+                                <div class="number-circle"></div>
+                            </div>
+                        </div>
+                        <div class="row d-flex d-lg-flex justify-content-center justify-content-lg-center card-number-row">
+                            <div class="col-2 col-xl-3 d-xl-flex justify-content-xl-center card-number-column">
+                                <div class="number-circle"></div>
+                            </div>
+                            <div class="col-2 col-xl-3 d-xl-flex justify-content-xl-center card-number-column">
+                                <div class="number-circle"></div>
+                            </div>
+                            <div class="col-2 col-xl-3 d-xl-flex justify-content-xl-center card-number-column">
+                                <div class="number-circle"></div>
+                            </div>
+                            <div class="col-2 col-xl-3 d-xl-flex justify-content-xl-center card-number-column">
+                                <div class="number-circle"></div>
+                            </div>
+                        </div>
+                        <div class="row d-flex d-lg-flex justify-content-center justify-content-lg-center card-number-row">
+                            <div class="col-2 col-xl-3 d-xl-flex justify-content-xl-center card-number-column">
+                                <div class="number-circle"></div>
+                            </div>
+                            <div class="col-2 col-xl-3 d-xl-flex justify-content-xl-center card-number-column">
+                                <div class="number-circle"></div>
+                            </div>
+                            <div class="col-2 col-xl-3 d-xl-flex justify-content-xl-center card-number-column">
+                                <div class="number-circle"></div>
+                            </div>
+                            <div class="col-2 col-xl-3 d-xl-flex justify-content-xl-center card-number-column">
+                                <div class="number-circle"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex credcheck-logo">
+                    <p class="d-flex d-lg-flex d-xl-flex align-items-end align-items-lg-end align-items-xl-end powered-by-txt">Powered by&nbsp;</p>
+                    <p class="credcheck-txt">CredCheck</p>
+                </div>
+            </div>
+            <div class="col d-lg-flex d-xl-flex justify-content-lg-center align-items-lg-center justify-content-xl-center align-items-xl-center right-column">
+                <form method="post">
+                    <div class="form-row title-row">
+                        <div class="col">
+                            <h1 id="heading">Card Details</h1>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="col-sm-12">
+                            <div class="form-group">
+                                <label>Card Id</label>
+                                <div class="form-row">
+                                    <div class="col-11 col-sm-11 col-lg-11"><input class="form-control" type="text" required="" name="carId"></div>
+                                    <div class="col-1 col-sm-1 col-lg-1"><i class="fa fa-eye-slash visibilityIcon"></i></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-row submit-row">
+                        <div class="col-11 col-sm-11"><button id="submitBtn" class="btn btn-primary submit-btn" type="submit">Submit<i class="icon ion-android-arrow-forward arrow-icon"></i></button></div>
+                    </div>
+                    <br>
+                    <h1>Your Card Data:</h1>
+                    <div>@Model.response</div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="js/jquery.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>
+
+<script>
+    // prevent page refresh
+    document.getElementById("submitBtn").addEventListener("click", function (event) {
+        //event.preventDefault()
+        console.log("Prevent Default")
+    });
+</script>

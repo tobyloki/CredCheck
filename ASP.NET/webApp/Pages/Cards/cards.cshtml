@@ -1,0 +1,32 @@
+﻿@page
+@model webApp.Pages.Cards.cardsModel
+@{
+    ViewData["Title"] = "credCheckIndex";
+}
+
+<h2>Cards</h2>
+<table>
+    <tr>
+        <th>Card Id</th>
+        <th>Card Number</th>
+        <th>Expiration Date</th>
+        <th>CVV</th>
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayTextFor(modelItem => item.cardId)
+            </td>
+            <td>
+                @Html.DisplayTextFor(modelItem => item.cardNumber)
+            </td>
+            <td>
+                @Html.DisplayTextFor(modelItem => item.expirationDate)
+            </td>
+            <td>
+                @Html.DisplayTextFor(modelItem => item.cvv)
+            </td>
+        </tr>
+    }
+</table>

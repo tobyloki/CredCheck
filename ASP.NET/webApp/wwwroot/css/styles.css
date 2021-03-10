@@ -1,0 +1,338 @@
+.visibilityIcon {
+  cursor: pointer;
+  margin-top: 7px;
+  font-size: 20px;
+}
+
+.number-circle {
+  width: 8px;
+  height: 8px;
+  background-color: white;
+  border-radius: 50%;
+}
+
+@media (min-width: 1200px) {
+  .number-circle {
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    border-radius: 50%;
+  }
+}
+
+.mini-circle {
+  width: 5px;
+  height: 5px;
+  background-color: white;
+  border-radius: 50%;
+}
+
+@media (min-width: 1200px) {
+  .mini-circle {
+    width: 8px;
+    height: 8px;
+    background-color: white;
+    border-radius: 50%;
+  }
+}
+
+.expiration {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 20%;
+  margin-left: 13.2%;
+  margin-bottom: 5%;
+}
+
+@media (min-width: 1200px) {
+  .expiration {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 15%;
+    margin-left: 10%;
+    margin-bottom: 5%;
+  }
+}
+
+.card {
+  position: relative;
+  background: #3B8AFF;
+  border-radius: 20px;
+  margin-right: 10%;
+  margin-left: 10%;
+  margin-top: 10%;
+  box-shadow: 10px 10px 20px rgba(33,37,41,0.34);
+  min-height: 15vh;
+  max-height: 20vh;
+  border-style: hidden;
+}
+
+@media (min-width: 576px) {
+  .card {
+    position: relative;
+    background: #3B8AFF;
+    border-radius: 20px;
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-top: 10%;
+    box-shadow: 10px 10px 20px rgba(33,37,41,0.34);
+    min-height: 15vh;
+    max-height: 20vh;
+    border-style: hidden;
+    max-width: 50vw;
+  }
+}
+
+@media (min-width: 768px) {
+  .card {
+    position: relative;
+    background: #3B8AFF;
+    border-radius: 20px;
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-top: 5%;
+    box-shadow: 10px 10px 20px rgba(33,37,41,0.34);
+    min-height: 15vh;
+    max-height: 25vh;
+    border-style: hidden;
+    max-width: 40vw;
+  }
+}
+
+@media (min-width: 992px) {
+  .card {
+    position: relative;
+    background: #3B8AFF;
+    border-radius: 20px;
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-top: 90%;
+    box-shadow: 10px 10px 20px rgba(33,37,41,0.34);
+    min-height: 15vh;
+    max-height: 22vh;
+    border-style: hidden;
+    max-width: 40vw;
+  }
+}
+
+@media (min-width: 1200px) {
+  .card {
+    position: relative;
+    background: #3B8AFF;
+    border-radius: 20px;
+    margin-right: 10%;
+    margin-left: 10%;
+    box-shadow: 10px 10px 20px rgba(33,37,41,0.34);
+    border-style: hidden;
+    max-width: 40vw;
+    min-height: 30vh;
+    margin-top: 32vh;
+  }
+}
+
+miniNumber {
+  width: 10px;
+  height: 10px;
+}
+
+.big-triangle {
+  width: 0;
+  height: 0;
+  border-left: 70vw solid transparent;
+  border-bottom: 110vh solid #6A5FFF;
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+  z-index: -1;
+}
+
+.small-triangle {
+  width: 0;
+  height: 0;
+  border-left: 42vw solid transparent;
+  border-bottom: 66vh solid #5F85FF;
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+  z-index: -1;
+}
+
+.section {
+  margin-right: 4vw;
+  margin-left: 4vw;
+  box-shadow: 10px 10px 20px rgba(33,37,41,0.34);
+  background: white;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+}
+
+@media (min-width: 768px) {
+  .section {
+    margin-right: 4vw;
+    margin-left: 4vw;
+    box-shadow: 10px 10px 20px rgba(33,37,41,0.34);
+    margin-top: 6vh;
+    background: white;
+    height: 88vh;
+  }
+}
+
+.section-row {
+  height: 100%;
+  /*width: 90%;*/
+  margin: 0px;
+}
+
+.left-column {
+  padding: 0px;
+  background: #77D1FF;
+  min-height: 30vh;
+}
+
+@media (min-width: 768px) {
+  .left-column {
+    padding: 0px;
+    background: #77D1FF;
+    min-height: 40vh;
+  }
+}
+
+.card-logo {
+  width: 30%;
+  margin-top: -2%;
+  margin-left: 8%;
+}
+
+.card-numbers {
+  position: absolute;
+  top: 40%;
+  padding: 0px;
+  margin-right: 10%;
+  margin-left: 10%;
+  margin-top: 5%;
+}
+
+.card-number-column {
+  padding: 0px;
+}
+
+.card-number-row {
+  margin: 0px;
+  width: 75%;
+}
+
+@media (min-width: 1200px) {
+  .card-number-row {
+    margin: 0px;
+    width: 20%;
+    margin-right: 5%;
+  }
+}
+
+.expiration-slash {
+  color: rgb(255,255,255);
+  margin-top: 14px;
+  font-size: 8px;
+}
+
+@media (min-width: 1200px) {
+  .expiration-slash {
+    color: rgb(255,255,255);
+    margin-top: 14px;
+    font-size: 12px;
+  }
+}
+
+.credcheck-logo {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  margin-bottom: 1%;
+  color: rgb(255,255,255);
+  margin-left: 10%;
+}
+
+@media (min-width: 576px) {
+  .credcheck-logo {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    margin-bottom: 1%;
+    color: rgb(255,255,255);
+    margin-left: 23%;
+  }
+}
+
+@media (min-width: 768px) {
+  .credcheck-logo {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    margin-bottom: 1%;
+    color: rgb(255,255,255);
+    margin-left: 28%;
+  }
+}
+
+@media (min-width: 992px) {
+  .credcheck-logo {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    margin-bottom: 1%;
+    color: rgb(255,255,255);
+    margin-left: 10%;
+  }
+}
+
+.powered-by-txt {
+  padding-bottom: 5px;
+  font-size: 12px;
+}
+
+.credcheck-txt {
+  font-size: 20px;
+}
+
+.right-column {
+  padding: 0px;
+  color: #6C6C6C;
+  margin: 5%;
+  margin-top: 10%;
+}
+
+@media (min-width: 768px) {
+  .right-column {
+    padding: 0px;
+    color: #6C6C6C;
+    margin: 5%;
+  }
+}
+
+.title-row {
+  margin-bottom: 30px;
+}
+
+.questionIcon {
+  cursor: pointer;
+  margin-left: 10px;
+  margin-bottom: 4px;
+}
+
+.submit-row {
+  margin-top: 30px;
+}
+
+.arrow-icon {
+  margin-left: 10px;
+}
+
+.submit-btn {
+  background: #22E351;
+  border-color: #22E351;
+  width: 100%;
+  border-radius: 100px;
+}
+

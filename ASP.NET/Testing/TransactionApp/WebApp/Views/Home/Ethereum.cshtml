@@ -1,0 +1,9 @@
+﻿@model WebApp.Models.EthereumModel
+
+<p>Current number: @Model.number</p>
+<form method="post">
+    <div>
+        <input type="number" name="newNumber" required placeholder="Enter new number" />
+    </div>
+    <input type="submit" name="submit" value="Submit" />
+</form>

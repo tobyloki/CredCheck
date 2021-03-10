@@ -1,0 +1,9 @@
+﻿@model WebApp.Models.ListUsersModel
+@{
+    ViewData["Title"] = "ListUsers";
+}
+
+@foreach(var x in Model.users)
+{
+    <p>@x.uid - @x.name</p>
+}

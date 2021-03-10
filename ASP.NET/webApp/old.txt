@@ -1,0 +1,4 @@
+webApp.csproj line 59: 
+<ItemGroup>
+    <ProjectReference Include="appData\appData.csproj" />
+  </ItemGroup>

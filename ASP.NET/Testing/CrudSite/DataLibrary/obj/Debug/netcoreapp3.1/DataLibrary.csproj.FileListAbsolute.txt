@@ -1,0 +1,12 @@
+C:\Users\Alex\Desktop\CrudSite\DataLibrary\bin\Debug\netcoreapp3.1\DataLibrary.deps.json
+C:\Users\Alex\Desktop\CrudSite\DataLibrary\bin\Debug\netcoreapp3.1\DataLibrary.dll
+C:\Users\Alex\Desktop\CrudSite\DataLibrary\obj\Debug\netcoreapp3.1\DataLibrary.csprojAssemblyReference.cache
+C:\Users\Alex\Desktop\CrudSite\DataLibrary\obj\Debug\netcoreapp3.1\DataLibrary.AssemblyInfoInputs.cache
+C:\Users\Alex\Desktop\CrudSite\DataLibrary\obj\Debug\netcoreapp3.1\DataLibrary.AssemblyInfo.cs
+C:\Users\Alex\Desktop\CrudSite\DataLibrary\bin\Debug\netcoreapp3.1\DataLibrary.runtimeconfig.json
+C:\Users\Alex\Desktop\CrudSite\DataLibrary\bin\Debug\netcoreapp3.1\DataLibrary.runtimeconfig.dev.json
+C:\Users\Alex\Desktop\CrudSite\DataLibrary\obj\Debug\netcoreapp3.1\DataLibrary.genruntimeconfig.cache
+C:\Users\Alex\Desktop\CrudSite\DataLibrary\bin\Debug\netcoreapp3.1\DataLibrary.pdb
+C:\Users\Alex\Desktop\CrudSite\DataLibrary\obj\Debug\netcoreapp3.1\DataLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Alex\Desktop\CrudSite\DataLibrary\obj\Debug\netcoreapp3.1\DataLibrary.dll
+C:\Users\Alex\Desktop\CrudSite\DataLibrary\obj\Debug\netcoreapp3.1\DataLibrary.pdb

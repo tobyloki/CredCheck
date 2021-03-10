@@ -1,0 +1,9 @@
+C:\Users\Alex\Desktop\MySqlApp\DataLibrary\bin\Release\netstandard2.0\DataLibrary.deps.json
+C:\Users\Alex\Desktop\MySqlApp\DataLibrary\bin\Release\netstandard2.0\DataLibrary.dll
+C:\Users\Alex\Desktop\MySqlApp\DataLibrary\bin\Release\netstandard2.0\DataLibrary.pdb
+C:\Users\Alex\Desktop\MySqlApp\DataLibrary\obj\Release\netstandard2.0\DataLibrary.csprojAssemblyReference.cache
+C:\Users\Alex\Desktop\MySqlApp\DataLibrary\obj\Release\netstandard2.0\DataLibrary.AssemblyInfoInputs.cache
+C:\Users\Alex\Desktop\MySqlApp\DataLibrary\obj\Release\netstandard2.0\DataLibrary.AssemblyInfo.cs
+C:\Users\Alex\Desktop\MySqlApp\DataLibrary\obj\Release\netstandard2.0\DataLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Alex\Desktop\MySqlApp\DataLibrary\obj\Release\netstandard2.0\DataLibrary.dll
+C:\Users\Alex\Desktop\MySqlApp\DataLibrary\obj\Release\netstandard2.0\DataLibrary.pdb
