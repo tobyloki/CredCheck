@@ -9211,11 +9211,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Alex\\Desktop\\CredCheck\\ASP.NET\\CrudSite\\WebApp\\WebApp.csproj",
+      "projectUniqueName": "C:\\Users\\Alex\\Desktop\\CredCheck\\ASP.NET\\Testing\\CrudSite\\WebApp\\WebApp.csproj",
       "projectName": "WebApp",
-      "projectPath": "C:\\Users\\Alex\\Desktop\\CredCheck\\ASP.NET\\CrudSite\\WebApp\\WebApp.csproj",
+      "projectPath": "C:\\Users\\Alex\\Desktop\\CredCheck\\ASP.NET\\Testing\\CrudSite\\WebApp\\WebApp.csproj",
       "packagesPath": "C:\\Users\\Alex\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Alex\\Desktop\\CredCheck\\ASP.NET\\CrudSite\\WebApp\\obj\\",
+      "outputPath": "C:\\Users\\Alex\\Desktop\\CredCheck\\ASP.NET\\Testing\\CrudSite\\WebApp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Alex\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -9231,8 +9231,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\Alex\\Desktop\\CredCheck\\ASP.NET\\CrudSite\\DataLibrary\\DataLibrary.csproj": {
-              "projectPath": "C:\\Users\\Alex\\Desktop\\CredCheck\\ASP.NET\\CrudSite\\DataLibrary\\DataLibrary.csproj"
+            "C:\\Users\\Alex\\Desktop\\CredCheck\\ASP.NET\\Testing\\CrudSite\\DataLibrary\\DataLibrary.csproj": {
+              "projectPath": "C:\\Users\\Alex\\Desktop\\CredCheck\\ASP.NET\\Testing\\CrudSite\\DataLibrary\\DataLibrary.csproj"
             }
           }
         }

@@ -5804,11 +5804,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Alex\\Desktop\\CredCheck\\ASP.NET\\CrudSite\\DataLibrary\\DataLibrary.csproj",
+      "projectUniqueName": "C:\\Users\\Alex\\Desktop\\CredCheck\\ASP.NET\\Testing\\CrudSite\\DataLibrary\\DataLibrary.csproj",
       "projectName": "DataLibrary",
-      "projectPath": "C:\\Users\\Alex\\Desktop\\CredCheck\\ASP.NET\\CrudSite\\DataLibrary\\DataLibrary.csproj",
+      "projectPath": "C:\\Users\\Alex\\Desktop\\CredCheck\\ASP.NET\\Testing\\CrudSite\\DataLibrary\\DataLibrary.csproj",
       "packagesPath": "C:\\Users\\Alex\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Alex\\Desktop\\CredCheck\\ASP.NET\\CrudSite\\DataLibrary\\obj\\",
+      "outputPath": "C:\\Users\\Alex\\Desktop\\CredCheck\\ASP.NET\\Testing\\CrudSite\\DataLibrary\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Alex\\AppData\\Roaming\\NuGet\\NuGet.Config",

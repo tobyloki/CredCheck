@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "UXrxHdOsmEK1U/mEHwXHSP5WtZVIFfyslcwIKmgbwmTGp87jM5c36Xh+CTpuzeYgocfHaVzKzen2xlJ9aQc7kg==",
+  "dgSpecHash": "a+GI23j48oMqFcEtY/mHvqldJ/Di8/TnVF2os6gSqMVGKZ69mbRWIIPiUnXdH9Vr/2ZDMTNhobncF0FesCVf5Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Alex\\Desktop\\CredCheck\\ASP.NET\\CrudSite\\WebApp\\WebApp.csproj",
+  "projectFilePath": "C:\\Users\\Alex\\Desktop\\CredCheck\\ASP.NET\\Testing\\CrudSite\\WebApp\\WebApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Alex\\.nuget\\packages\\castle.core\\4.4.1\\castle.core.4.4.1.nupkg.sha512",
     "C:\\Users\\Alex\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",

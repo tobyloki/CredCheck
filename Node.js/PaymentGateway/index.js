@@ -1,4 +1,4 @@
-require('dotenv').config({path: '../.env'});
+require('dotenv').config({path: '../../.env'});
 
 const jwt = require('jsonwebtoken');
 const crypto = require('crypto');
@@ -29,7 +29,6 @@ async function generateCredentials() {
 }
 
 async function main() {
-
     const issuer = 'CredCheck';
     const userId = 'myuserid';
     const cardId = 'mycardid';
@@ -70,7 +69,7 @@ async function main() {
         }
     );
 
-    // create a nonce - only used once, expires after 3 hrs
+    // create a nonce - only used once, expires after 5 seconds
     // it basically looks like a jwt token, but w/out payload
     const nonce = encrypt(JSON.stringify({
         cardId,
